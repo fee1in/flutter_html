@@ -22,7 +22,11 @@ dependencies:
   chewie: '>=1.1.0 <2.0.0'
 
   # Plugin for rendering the <iframe> tag.
-  webview_flutter: '>=2.0.4 <3.0.0'
+  webview_flutter:
+    git:
+      url: https://gitee.com/junf_hz/webview_flutter
+      path: packages/webview_flutter
+      ref: video_player_0.11.0+1
 
   # Plugins for rendering the <audio> tag.
   chewie_audio: '>=1.2.0 <2.0.0'
